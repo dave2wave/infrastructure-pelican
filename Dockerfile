@@ -90,4 +90,4 @@ RUN ln -s /usr/local/bin/python3 /usr/bin/python3
 # Run Pelican
 WORKDIR /site
 
-ENTRYPOINT [ "/bin/bash", "-c", "source /tmp/pelican-asf/LIBCMARKDIR.sh && /tmp/pelican-asf/bin/buildsite.py dir --listen" ]
+ENTRYPOINT [ "/bin/bash", "-c", "source /tmp/pelican-asf/LIBCMARKDIR.sh && /tmp/pelican-asf/bin/buildsite.py dir" ]
